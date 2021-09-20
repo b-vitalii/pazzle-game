@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>P15</title>
+  </head>
+  <body>
+    <style>
+      #game {
+        border: 7px solid #000;
+        margin: 30px auto;
+        display: block;
+      }
+      .game-field {
+        fill: #feffd5;
+      }
+      .cell-group {
+        cursor: grab;
+      }
+      .cell-square {
+        stroke: rgb(0, 0, 0);
+        fill: #a3a3a3;
+      }
+      .cell-square-empty {
+        stroke: #000;
+        fill: #d8d8d8;
+      }
+      .cell-text {
+        font-size: 60px;
+      }
+      .new_btn {
+        font-size: 20px;
+        background-color: aqua;
+        cursor: pointer;
+      }
+    </style>
+    <button class="new_btn">New game</button>
+    <svg id="game" width="600" height="600"></svg>
+
+    <script src="./game.js"></script>
+  </body>
+</html>
